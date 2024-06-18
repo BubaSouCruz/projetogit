@@ -1,0 +1,56 @@
+.exercicio9 {
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+}
+
+.pizza {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform: rotate (-50%);
+}
+
+.slice {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+    transform-origin: 100% 100%;
+}
+
+.slice.red {
+    background-color: red;
+    transform: rotate(90deg);
+}
+
+.slice.blue {
+    background-color: blue;
+    transform: rotate(90deg);
+}
+
+.slice.green {
+    background-color: green;
+    transform: rotate(90deg);
+}
+
+.slice.yellow {
+    background-color: yellow;
+    transform: rotate(90deg);
+}
+
+.center-circle {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}

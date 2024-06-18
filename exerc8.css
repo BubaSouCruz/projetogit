@@ -1,0 +1,35 @@
+.exercicio8 .flex-container {
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #000; 
+}
+
+.exercicio8 .flex-item {
+    width: calc(50% - 40px);
+    height: calc(50% - 40px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exercicio8 .circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.exercicio8 .circle.red {
+    background-color: red;
+}
+
+.exercicio8 .circle.blue {
+    background-color: blue;
+}
+
+.exercicio8 .circ

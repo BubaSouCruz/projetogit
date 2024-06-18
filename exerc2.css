@@ -1,0 +1,15 @@
+.container {
+    width: 400px;
+    height: 400px;
+    background-color: #f0f0f0;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.child, .child2 {
+    margin-bottom: 40px;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(196, 28, 112);
+}
